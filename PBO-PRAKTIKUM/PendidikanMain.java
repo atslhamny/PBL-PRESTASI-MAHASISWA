@@ -1,7 +1,7 @@
 
 import java.util.ArrayList;
 
-public class PendidikanDemo extends Pegawai {
+public class PendidikanMain extends Pegawai {
     public static void main(String[] args) {
         Dosen dosen1 = new Dosen("19940201", "Widia, S.Kom, M.Kom", "199402");
         Dosen dosen2 = new Dosen("1970015", "Muhammad, S.T, M.T", "197001");
