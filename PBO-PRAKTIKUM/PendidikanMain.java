@@ -8,6 +8,8 @@ public class PendidikanMain extends Pegawai {
         // TenagaKependidikan tendik1 = new TenagaKependidikan("19750301", "Aida, A.Md.", "Tenaga Administrasi");
         // TenagaKependidikan tendik2 = new TenagaKependidikan("19650304", "Rika, S.T.", "Tenaga Laboratorium");
 
+        Pegawai pegawai1 = dosen1;
+
         ArrayList<Pegawai> daftarPegawai = new ArrayList<Pegawai>();
 
         // daftarPegawai.add(dosen1);
@@ -15,10 +17,14 @@ public class PendidikanMain extends Pegawai {
         // daftarPegawai.add(tendik1);
         // daftarPegawai.add(tendik2);
 
-        System.out.println(dosen1.nip);
-        System.out.println(dosen1.nama);
-        System.out.println(dosen1.nidn);
-        dosen1.mengajar();
+        // System.out.println(dosen1.nip);
+        // System.out.println(dosen1.nama);
+        // System.out.println(dosen1.nidn);
+        // dosen1.mengajar();
+
+        System.out.println(pegawai1.nip);
+        System.out.println(pegawai1.nama);
+        pegawai1.displayInfo();
         
         for (Pegawai pegawai : daftarPegawai) {
             pegawai.displayInfo();
