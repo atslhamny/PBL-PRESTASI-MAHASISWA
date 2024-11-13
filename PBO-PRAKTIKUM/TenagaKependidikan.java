@@ -1,8 +1,8 @@
-public class TenagaKependidikan extends Pegawai{
+public class TenagaKependidikan extends Pegawai {
     public String kategori;
 
     public TenagaKependidikan() {
-
+        // Konstruktor default
     }
 
     public TenagaKependidikan(String nip, String nama, String kategori) {
@@ -12,7 +12,6 @@ public class TenagaKependidikan extends Pegawai{
 
     public void displayInfo() {
         super.displayInfo();
-        System.out.println("Kategori: " + kategori);
+        System.out.println("Kategori : " + kategori); // Menampilkan kategori
     }
-    
 }
