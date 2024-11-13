@@ -25,6 +25,15 @@ public class PendidikanMain extends Pegawai {
         System.out.println(pegawai1.nip);
         System.out.println(pegawai1.nama);
         pegawai1.displayInfo();
+
+        Dosen newDosen = (Dosen) pegawai1;
+
+        System.out.println(newDosen.nama);
+        System.out.println(newDosen.nidn);
+        newDosen.mengajar();
+
+        // downcasting
+        // TenagaKependidikan test = (TenagaKependidikan) pegawai1;
         
         for (Pegawai pegawai : daftarPegawai) {
             pegawai.displayInfo();
