@@ -4,6 +4,7 @@ $session = new Session();
 if ($session->get('is_login') !== true) {
     header('Location: login.php');
 }
+
 include_once('../model/KategoriModel.php');
 include_once('../lib/Secure.php');
 $act = isset($_GET['act']) ? strtolower($_GET['act']) : '';

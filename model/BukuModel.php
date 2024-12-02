@@ -14,6 +14,7 @@ class BukuModel extends Model
         $this->driver = $use_driver; // pastikan $use_driver diatur di Connection.php (mysql/sqlsrv)
     }
 
+    
     public function insertData($data)
     {
         if ($this->driver == 'mysql') {

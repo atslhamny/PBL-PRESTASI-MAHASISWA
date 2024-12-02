@@ -10,6 +10,7 @@
         </div>
     </div>
 
+    
     <!-- SidebarSearch Form -->
     <div class="form-inline">
         <div class="input-group" data-widget="sidebar-search">

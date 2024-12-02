@@ -9,6 +9,7 @@ if ($session->get('is_login') === true) {
   exit();  // Menghentikan eksekusi lebih lanjut setelah redirect
 }
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -88,7 +89,7 @@ if ($session->get('is_login') === true) {
           <!-- Link ke halaman registrasi jika pengguna belum memiliki akun -->
           <div class="haveaccount col-12">
             <div style="height: 10px;"></div>
-            <p class="text-center">Don't have account? <a href="#register">Register here</a></p>
+            <p class="text-center">Don't have account ? <a href="#register">Register here</a></p>
           </div>
         </form>
       </div>
