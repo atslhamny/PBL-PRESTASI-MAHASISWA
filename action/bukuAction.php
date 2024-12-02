@@ -29,7 +29,7 @@ if ($act == 'load') {
             htmlspecialchars($row['deskripsi']),
             '<img src="' . htmlspecialchars($row['gambar']) . '" alt="Gambar Buku" style="width: 100px; height: auto;">',
             '<button class="btn btn-sm btn-warning" onclick="editData(' . $row['buku_id'] . ')"><i class="fa fa-edit"></i></button>
-             <button class="btn btn-sm btn-danger" onclick="deleteData(' . $row['buku_id'] . ')"><i class="fa fa-trash"></i></button>'
+            <button class="btn btn-sm btn-danger" onclick="deleteData(' . $row['buku_id'] . ')"><i class="fa fa-trash"></i></button>'
         ];
         $i++;
     }

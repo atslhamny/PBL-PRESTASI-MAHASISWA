@@ -1,4 +1,5 @@
 <?php
+
 $use_driver = 'sqlsrv'; // mysql atau sqlsrv
 $host = 'localhost';
 $username = ''; //'sa';

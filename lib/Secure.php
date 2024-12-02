@@ -1,7 +1,8 @@
 <?php
+
 function antiSqlInjection($data)
 {
-    
+
     $data = stripslashes($data);
     $data = strip_tags($data);
     $data = htmlentities($data);

@@ -1,8 +1,9 @@
 <?php
 include('Model.php');
+
 class KategoriModel extends Model
+
 {
-    
     protected $db;
     protected $table = 'm_kategori';
     protected $driver;
