@@ -1,4 +1,5 @@
-<!-- Sidebar Page-->
+
+<!-- sidebar -->
 
 <div class="sidebar">
     <!-- Sidebar user (optional) -->

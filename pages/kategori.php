@@ -1,4 +1,4 @@
-<!-- Kompetisi mahasiswa -->
+<!-- kategori -->
 
 <section class="content-header">
     <div class="container-fluid">
