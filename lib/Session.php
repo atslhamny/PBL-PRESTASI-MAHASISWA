@@ -1,4 +1,5 @@
-<!-- session -->
+<!-- session.php -->
+
 <?php
 class Session
 

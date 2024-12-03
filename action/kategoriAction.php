@@ -1,3 +1,5 @@
+<!-- kategoriAction -->
+
 <?php
 include('../lib/Session.php');
 

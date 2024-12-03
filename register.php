@@ -1,3 +1,4 @@
+
 <!-- login -->
 
 <?php
@@ -40,7 +41,7 @@ if ($session->get('is_login') === true) {
       </div>
 
       <div class="card-body">
-        <p class="login-box-msg">Sign in to start your session</p>
+        <p class="login-box-msg">Register a new membership</p>
 
         <!-- Menampilkan pesan flash jika login gagal -->
         <?php
@@ -91,7 +92,7 @@ if ($session->get('is_login') === true) {
           <!-- Link ke halaman registrasi jika pengguna belum memiliki akun -->
           <div class="haveaccount col-12">
             <div style="height: 10px;"></div>
-            <p class="text-center">Don't have account? <a href="register.php">Register here</a></p>
+            <p class="text-center">Don't have account? <a href="#register">Register here</a></p>
           </div>
         </form>
       </div>

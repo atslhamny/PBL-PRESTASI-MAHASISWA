@@ -1,5 +1,5 @@
 
-<!-- sidebar -->
+<!-- sidebarrrr -->
 
 <div class="sidebar">
     <!-- Sidebar user (optional) -->

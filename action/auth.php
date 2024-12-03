@@ -1,3 +1,5 @@
+<!-- auth -->
+
 <?php
 include('../lib/Session.php');
 include('../lib/Connection.php');
