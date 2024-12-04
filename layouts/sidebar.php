@@ -1,27 +1,32 @@
-
 <!-- sidebarrrr -->
 
-<div class="sidebar">
+<div class="sidebar" style="background-color: #3356A4;">
     <!-- Sidebar user (optional) -->
     <div class="user-panel mt-3 pb-3 mb-3 d-flex">
         <div class="image">
-            <img src="adminlte/dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
+            <img src="user.png" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
-            <a href="#" class="d-block">Rheina Putri Ferdiansyah</a>
+            <a href="profile.php" class="d-block">Rheina Putri Ferdiansyah</a>
         </div>
     </div>
 
-    
+
     <!-- SidebarSearch Form -->
-    <div class="form-inline">
+    <div class="form-inline" style="padding: 9px;">
         <div class="input-group" data-widget="sidebar-search">
-            <input class="form-control form-control-sidebar" type="search" placeholder="Search" aria-label="Search">
-            <div class="input-group-append">
+            <input class="form-control form-control-sidebar-light" type="search" placeholder="Search" aria-label="Search">
+            <div class="input-group-append-light">
                 <button class="btn btn-sidebar">
-                    <i class="fas fa-search fa-fw"></i>
+                    <i class="fas fa-search fa-fw" style="color: white;"></i>
                 </button>
             </div>
+        </div>
+        <div class="sidebar-search-results">
+            <div class="list-group"><a href="#" class="list-group-item-light">
+                    <div class="search-title"><strong class="text-light"></strong>N<strong class="text-light"></strong>o<strong class="text-light"></strong> <strong class="text-light"></strong>e<strong class="text-light"></strong>l<strong class="text-light"></strong>e<strong class="text-light"></strong>m<strong class="text-light"></strong>e<strong class="text-light"></strong>n<strong class="text-light"></strong>t<strong class="text-light"></strong> <strong class="text-light"></strong>f<strong class="text-light"></strong>o<strong class="text-light"></strong>u<strong class="text-light"></strong>n<strong class="text-light"></strong>d<strong class="text-light"></strong>!<strong class="text-light"></strong></div>
+                    <div class="search-path"></div>
+                </a></div>
         </div>
     </div>
 

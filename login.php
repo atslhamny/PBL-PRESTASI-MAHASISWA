@@ -24,7 +24,7 @@ if ($session->get('is_login') === true) {
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
   
   <!-- Menyertakan file CSS dari AdminLTE -->
-  <link rel="stylesheet" href="adminlte/plugins/fontawesome-free/css/all.min.css">
+  <link rel="styles heet" href="adminlte/plugins/fontawesome-free/css/all.min.css">
   <link rel="stylesheet" href="adminlte/plugins/icheck-bootstrap/icheck-bootstrap.min.css">
   <link rel="stylesheet" href="adminlte/dist/css/adminlte.min.css">
   
@@ -32,7 +32,8 @@ if ($session->get('is_login') === true) {
   <!-- <link rel="stylesheet" href="css/stylelogin.css"> -->
 </head>
 
-<body class="hold-transition login-page" style="background-color:#356CEA;">
+<!-- <body class="hold-transition login-page" style="background-color:#356CEA;"> -->
+<body class="hold-transition login-page" style="background: url('background.png') no-repeat center center fixed; background-size: cover;">
   <div class="login-box">
     <div class="card card-outline card-primary" style="border-radius: 20px;">
       <div class="card-header text-center" style="margin: 10px;">
@@ -91,7 +92,7 @@ if ($session->get('is_login') === true) {
           <!-- Link ke halaman registrasi jika pengguna belum memiliki akun -->
           <div class="haveaccount col-12">
             <div style="height: 10px;"></div>
-            <p class="text-center">Don't have account? <a href="register.php">Register here</a></p>
+            <!-- <p class="text-center">Don't have account? <a href="register.php">Register here</a></p> -->
           </div>
         </form>
       </div>

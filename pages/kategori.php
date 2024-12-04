@@ -20,15 +20,19 @@
 <section class="content">
     <div class="card">
         <div class="card-header">
+            <div class="deskripsi">
             <h3 class="card-title">Daftar Kategori Buku</h3>
+            <br><p>daftarrrrrrrrrrrrrrrrr</p>
+            </div>
             <div class="card-tools">
-                <button type="button" class="btn btn-md btn-primary" onclick="tambahData()">
+                <button type="button" class="btn btn-md-right btn-primary" onclick="tambahData()">
                     Tambah
                 </button>
             </div>
         </div>
         <div class="card-body">
             <table class="table table-sm table-bordered table-striped" id="table-data">
+                
                 <thead>
                     <tr>
                         <th>No</th>

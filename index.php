@@ -38,17 +38,19 @@ if ($session->get('is_login') !== true) {
     <!-- /.navbar -->
 
     <!-- Main Sidebar Container -->
-    <aside class="main-sidebar sidebar-dark-primary elevation-4">
+    <aside class="main-sidebar sidebar-dark-primary elevation-4" style="background-color: #3356A4;">
 
       <!-- Brand Logo Template-->
       <a href="adminlte/index3.html" class="brand-link">
         <img src="adminlte/dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
-        <span class="brand-text font-weight-light">Presma Polinema</span>
+        <span class="brand-text font-weight-light"><b>Presma Polinema</b></span>
       </a>
 
+      
       <!-- Sidebar -->
       <?php include('layouts/sidebar.php');?>
       <!-- /.sidebar -->
+
     </aside>
 
     <!-- Content Wrapper. Contains page content -->
@@ -80,6 +82,7 @@ if ($session->get('is_login') !== true) {
     <!-- /.content-wrapper -->
     <!-- footer -->
     <?php include('layouts/footer.php'); ?>
+    
 
     <!-- Control Sidebar -->
     <aside class="control-sidebar control-sidebar-dark">
@@ -113,3 +116,4 @@ if ($session->get('is_login') !== true) {
   <!-- AdminLTE for demo purposes -->
   <script src="adminlte/dist/js/demo.js"></script>
 </body>
+</html>
